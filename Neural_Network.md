@@ -13,9 +13,9 @@ To determine the hypothesis, we need to decide some threshold based on the value
     <th>Rectified linear unit</th>
   </tr>
   <tr>
-    <td><img src="image-2.png" alt="Step" width="370" style="vertical-align: middle;"></td>
-    <td><img src="image-4.png" alt="Sigmoid" width="370" style="vertical-align: middle;"></td>
-    <td><img src="image-3.png" alt="ReLU" width="370" style="vertical-align: middle;"></td>
+    <td><img src="images/image-2.png" alt="Step" width="370" style="vertical-align: middle;"></td>
+    <td><img src="images/image-4.png" alt="Sigmoid" width="370" style="vertical-align: middle;"></td>
+    <td><img src="images/image-3.png" alt="ReLU" width="370" style="vertical-align: middle;"></td>
   </tr>
 </table>
 
@@ -26,7 +26,7 @@ A neural network can be thought of as a representation of the idea above, where 
 
 1. Visualize an Or logical connective(use the step function)
 
-<img src="image-1.png" alt="Image description" width="800">
+<img src="images/image-1.png" alt="Image description" width="800">
 
 
 2. Visualize an AND logical connective(use the step function)
@@ -59,7 +59,7 @@ Note that one data point may be used multiple times,  but it is much faster.
 E.g.
 We might want to know more than “will it rain today?” We can use some inputs to generate probabilities for different kinds of weather, and then just choose the weather that is most probable.
 
-<img src="image-5.png" alt="Image description" width="900" height="500">
+<img src="images/image-5.png" alt="Image description" width="900" height="500">
 
 
 Limitation of taking linear inputs
@@ -71,7 +71,7 @@ So far, our neural networks relied on perceptron output units. These are units t
 ## Multilayer neural network
 Artificial neural network with an input layer, an output layer, and at least one hidden layer.
 
-<img src="image-8.png" alt="Image of neural network" width="800">
+<img src="images/image-8.png" alt="Image of neural network" width="800">
 
 The middle layer is marked as hidden layer.
 
@@ -162,7 +162,7 @@ Applying a filter that adds each pixel value of an image to its neighbors, weigh
 
 * Different kernels can achieve different tasks. For edge detection, the following kernel is often used: kernel=[-1, -1, -1, -1, 8, -1, -1, -1, -1]
 
-<img src="image-9.png" alt="Image of neural network" width="800">
+<img src="images/image-9.png" alt="Image of neural network" width="800">
 
 
 
@@ -239,7 +239,7 @@ Example: Classifying the entire image (e.g., "cat" or "car").
 
 ### Pooling: size of the input is reduced by sampling from regions in the input
 
-<img src="image-10.png" alt="Image of neural network" width="800">
+<img src="images/image-10.png" alt="Image of neural network" width="800">
 
 ### Flattening: Convert a multi-dimensional tensor into a 1D vector.
 
@@ -346,11 +346,11 @@ if len(sys.argv) == 2:
 
  ## feed-forward neural network : neural network that one have connection in one single direction
 
-<img src="image-11.png" alt="Image of neural network" width="800">
+<img src="images/image-11.png" alt="Image of neural network" width="800">
 
 
 
 ## Recurrent Neural Networks : consist of a non-linear structure, where the network uses its own output as input
-<img src="image-12.png" alt="Image of neural network" width="800">
+<img src="images/image-12.png" alt="Image of neural network" width="800">
 
 Recurrent neural networks are helpful in cases where the network deals with sequences and not a single individual object. Above, the neural network needed to produce a sequence of words. 
